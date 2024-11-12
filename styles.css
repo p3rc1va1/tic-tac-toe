@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+#xScore{
+    flex: 1;
+}
+
+#oScore{
+    flex: 1;
+}
+#scoreboard div{
+    flex:1;
+    
+}
+#game{
+    display: grid;
+    grid-template: 100px 100px 100px / 100px 100px 100px;
+    border: solid;
+}
+.gameCell{
+    border: solid;
+}
