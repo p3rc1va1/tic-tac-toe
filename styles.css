@@ -3,6 +3,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:#C8CEEE;
+    color:#F7E5B7;
 }
 header{
     display: flex;
@@ -14,6 +16,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    color: #9BABBE;
 }
 #xScore{
     flex: 1;
@@ -33,4 +36,18 @@ header{
 }
 .gameCell{
     border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+#reset{
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #F7E5B7;
+    color: #9BABBE;;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 10rem;
 }
